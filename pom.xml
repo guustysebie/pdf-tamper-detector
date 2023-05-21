@@ -12,17 +12,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <itext.version>8.0.1-SNAPSHOT</itext.version>
+    <itext.version>8.0.0</itext.version>
     <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.co<!-- All add-ons and iText Core-->
-<repositories>
-  <repository>
-    <id>itext-releases</id>
-    <name>iText Repository - releases</name>
-    <url>https://repo.itextsupport.com/releases</url>
-  </repository>
-</repositories>
-mpiler.target>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -30,7 +22,7 @@ mpiler.target>
     <dependency>
       <groupId>com.itextpdf</groupId>
       <artifactId>bouncy-castle-adapter</artifactId>
-      <version>8.0.1-SNAPSHOT</version>
+      <version>8.0.0</version>
     </dependency>
 
     <dependency>
